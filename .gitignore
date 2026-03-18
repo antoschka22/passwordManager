@@ -1,0 +1,77 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# Compiled Object files
+*.o
+*.obj
+*.ko
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+pwdmgr
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Password database and backups
+.pwdb
+*.db
+*.pwdb
+*.backup
+~/.pwdmgr/
+
+# Test results
+*.log
+test_results/
+
+# Package files
+*.tar.gz
+*.zip
+*.deb
+*.rpm
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Security - sensitive data
+*.key
+*.pem
+*.crt
+*.secret
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
